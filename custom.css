@@ -14,48 +14,48 @@
 }
 
 .no-padding-left{
-	padding-left:0px!important;
+  padding-left:0px!important;
 }
 .no-padding-right{
-	padding-right:0px!important;
+  padding-right:0px!important;
 }
 .no-padding-bottom{
-	padding-bottom:0px!important;
+  padding-bottom:0px!important;
 }
-.no-padding-top	{
-	padding-top:0px!important;
+.no-padding-top {
+  padding-top:0px!important;
 }
 .no-padding{
-	padding:0px!important;
+  padding:0px!important;
 }
 /****************header*******************/
 .navbar-header.sub-title{
-	
-	
+  
+  
 }
 .navbar-header a:hover{
-	text-decoration: none;
+  text-decoration: none;
 }
 .navbar-header .sub-title a{
-	/*font-weight:700;*/
-	font-family: Acme,sans-serif;
+  /*font-weight:700;*/
+  font-family: Acme,sans-serif;
     font-size: 15px;
     color:#000;
 }
 #main .navbar-brand{
-	height:auto;
-	padding-left:0px;
-	padding-right:0px;
-	padding-bottom:0px;
+  height:auto;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:0px;
 }
 #main .navbar-brand img{
-	padding-right:42px;
+  padding-right:42px;
 }
 #main .navbar-brand span{
-	font-family: Acme,sans-serif;
-	font-size: 30px; 
-	color: #000000;
-	
+  font-family: Acme,sans-serif;
+  font-size: 30px; 
+  color: #000000;
+  
 }
 header .navbar-nav {
     float:none;
@@ -69,38 +69,38 @@ header .navbar-nav {
     float:none;
 }*/
 header .navbar-brand{
-	  margin-bottom: 5px;
+    margin-bottom: 5px;
     margin-top: 5px;
 }
 header .navbar{
-	background-color:#02008b;
+  background-color:#02008b;
 }
 
 header .form-control{
-	background-color: #efefef;
+  background-color: #efefef;
     border-color: #efefef;
     box-shadow: none;
 }
 
 header form .btn-default{
-	background-color: #efefef;
+  background-color: #efefef;
     border-color: #efefef;
 }
 header .top-sect .help-box {
     float: right;
 }
 header form .form-control:focus{
-	background-color: #efefef;
+  background-color: #efefef;
     border-color: #efefef;
     box-shadow:none;}
 .help-box{padding-top:21px;}
 .help-box .navbar-form{
-	margin-top: 0px;
-	margin-right: 11px;
+  margin-top: 0px;
+  margin-right: 11px;
 }
 .help-box .glyphicon-envelope ,.help-box .glyphicon-earphone{
-	
-	color:#020151;
+  
+  color:#020151;
 }
 .help-box .row span {
     color: #02008b;
@@ -110,10 +110,10 @@ header form .form-control:focus{
 }
 .help-box .row span i{padding-right:5px;}
 .help-box .row form{
-	margin-right:10px;
+  margin-right:10px;
 }
 .help-box .row {
-	margin-right:10px;
+  margin-right:10px;
 }
 
 .help-box .glyphicon-envelope{padding-top: 9px;}
@@ -121,31 +121,31 @@ header form .form-control:focus{
 font-size: 17px;
 color:#02008b;}
 .help-box span i{
-	padding:0 2px 0 19px;
-	  
+  padding:0 2px 0 19px;
+    
 }
 .help-box .btn-default:hover{
-	border-color:#efefef;
-	background:#efefef;
+  border-color:#efefef;
+  background:#efefef;
 }
 .requestquote{
-	display:block;
-	  font-family: Acme,sans-serif;
+  display:block;
+    font-family: Acme,sans-serif;
 }
 header .row{
-	margin:0px;
+  margin:0px;
 }
 section .row{
-	margin:0px;
+  margin:0px;
 }
 footer .row{
-	margin:0px;
+  margin:0px;
 }
 .homepage .row:first-child{
-	padding-left:0px;
+  padding-left:0px;
 }
 .homepage .row:last-child{
-	padding-left:0px;
+  padding-left:0px;
 }
 .top-sect{margin-bottom:6px;}
 /***********navbar************************/
@@ -187,9 +187,9 @@ nav .navbar-nav > li {   display: inline-block;
   text-decoration: underline;
 }  
  @media (max-width:480px) { 
- 	.dropdown-menu > li > a:hover, .dropdown-menu > .active{
- 		
- 	}
+  .dropdown-menu > li > a:hover, .dropdown-menu > .active{
+    
+  }
  }
 @media (max-width: 767px){
   .navbar-nav  {
@@ -291,26 +291,26 @@ nav .navbar-nav > li {   display: inline-block;
     width: 100%;
    }
   .homepage .porduct-pic .thumbnail {
-	 height: 199px;
+   height: 199px;
 }
  .homepage .thumbnail a , .homepage .thumbnail h4{
- 	color:#000000;
- 	font-size:14px;
- 	
+  color:#000000;
+  font-size:14px;
+  
  }
  .homepage .thumbnail a:hover{
-	text-decoration: none;
+  text-decoration: none;
 }
 .homepage [class*="col-"]{
-	padding-right:5px;
-	padding-left:5px;
+  padding-right:5px;
+  padding-left:5px;
 }
 article h1{
-	 line-height: 8px;
-	color:#333;
-	font-weight:200;
-	font-family: Acme,sans-serif;
-	margin-bottom:0px
+   line-height: 8px;
+  color:#333;
+  font-weight:200;
+  font-family: Acme,sans-serif;
+  margin-bottom:0px
 }
 /*Added By Thangam*/
 .thumbnail .pro_img_curve{
@@ -323,42 +323,42 @@ article .bot_size{
 }
 /*Ended By Thangam*/
 article .bot-border {
-	color:#333;
-	 font-size: 20px;
+  color:#333;
+   font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 
 }
 .homepage .clients , .homepage .thumbnail {
-	border:none;
-	box-shadow: 0 2px 2px #dbdbdb;
-	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+  border:none;
+  box-shadow: 0 2px 2px #dbdbdb;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
       
     -webkit-box-shadow: 0 2px 2px #dbdbdb;
     -moz-box-shadow: 0 2px 2px #dbdbdb;
 }
 .homepage .clients {
-	padding:25px;
+  padding:25px;
 }
 body{
-	background-color:#eeeeee!important;
+  background-color:#eeeeee!important;
 }
 header{
-	background-color:#ffffff;
+  background-color:#ffffff;
 }
 
 .requestquote .btn-link{
-	background:#d31900;
-	color:#fff;
-	border-radius:5%;
+  background:#d31900;
+  color:#fff;
+  border-radius:5%;
   padding-bottom: 5px;/*Added By Thangam*/
   padding-top: 5px;/*Added By Thangam*/
 }
 .requestquote .btn-link:focus ,.requestquote  .btn-link:hover {
-	background:#d31900;
-	color:#fff;
-	border-radius:3%;
-	  text-decoration:none;
+  background:#d31900;
+  color:#fff;
+  border-radius:3%;
+    text-decoration:none;
 }
 
 /***********************flats page***************/
@@ -408,7 +408,7 @@ font-family: Acme,sans-serif;}
 .page-wrap .requestquote button{
   margin-right:15px;
   margin-top: 25px;
-  width: 170px;
+  width: 195px;
 }
 .page-wrap p {
     font-size: 21px;
@@ -478,37 +478,38 @@ font-family: Acme,sans-serif;}
 
 /********************Square page***********/
 .requestquote .contact-but{
-	background-color:#ffffff;
-	border:1px solid #9b9b9b;
-	color:#000000;
+  background-color:#ffffff;
+  border:1px solid #9b9b9b;
+  color:#000000;
+  width:150px;
 }
 .requestquote .contact-but:hover{
-	background-color:#ffffff;
-	border:1px solid #9b9b9b;
-	color:#000000;}
+  background-color:#ffffff;
+  border:1px solid #9b9b9b;
+  color:#000000;}
 .requestquote .contact-but:focus, .requestquote .contact-but:hover{background-color:#ffffff;
-	border:1px solid #9b9b9b;
-	color:#000000;}
+  border:1px solid #9b9b9b;
+  color:#000000;}
   
 /***********************footer************/
 .footer-bg{
-	background-color:#fff;
-	padding:21px 0;
+  background-color:#fff;
+  padding:21px 0;
 }
-footer{	
-	
-	
+footer{ 
+  
+  
 }
 .copy {
     margin-top: 13px;
 }
 footer .iso img{
-	float:right;
-	 width: 63px;
-	
+  float:right;
+   width: 63px;
+  
 }
 footer .iso{
-	padding-right:0px;
+  padding-right:0px;
 }
 footer .iso .col-sm-9{/*padding-top:24px;*/}
 footer .iso span{float:left;}
@@ -521,64 +522,64 @@ footer .iso span{float:left;}
   
 }*/
 .footer-nav li:last-child {
-	content:"";
+  content:"";
 }
 .footer-nav li {
  
     line-height:20px;
 }
 .footer-nav li a{
-	color:#333;
+  color:#333;
 }
 .footer-nav .nav > li:first-child > a {
-	padding-left:0px;
+  padding-left:0px;
 }
 .footer-nav .nav > li > a {
-	display: inline;
-	padding:3px 7px;
+  display: inline;
+  padding:3px 7px;
 }
 footer .address-col{
-	padding-left:0px;
+  padding-left:0px;
 }
 footer{
-	margin-top:25px;
+  margin-top:25px;
 }
 footer .footer-nav li a:hover{
-	background:none;
+  background:none;
 }
 nav #navbar li a{
-	color:#fff;
+  color:#fff;
 }
 nav #navbar .active a{
-color:#000;	
+color:#000; 
 
 }
 nav #navbar li ul li a{
-	color:#000;
+  color:#000;
 }
 
 .footer-nav .nav-pills > li{
-	float:none;
-	display:inline-block;
+  float:none;
+  display:inline-block;
 }
 .footer-nav{
-	margin-top:10px;
+  margin-top:10px;
 }
 
 /**************************media*************/
 @media (max-device-width:480px){
-	footer .col-xs-12{
-		text-align: center;
-		
-	}
-	footer .iso img{
-		float:none;
-	}
-	.footer-nav li {
+  footer .col-xs-12{
+    text-align: center;
+    
+  }
+  footer .iso img{
+    float:none;
+  }
+  .footer-nav li {
  
     line-height:35px;
 }
 nav .navbar-nav > li{
-	
+  
 }
 }
