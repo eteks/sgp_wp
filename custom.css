@@ -583,3 +583,20 @@ nav .navbar-nav > li{
   
 }
 }
+/*Added By Thangam*/
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+display: block;    
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+.form-group .form-control {
+  background-color: #ffffff;
+}
+.para{
+    border-bottom-color:#020151;
+  border-width:100px;
+}
+/*Ended by Thangam*/
