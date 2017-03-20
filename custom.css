@@ -1,16 +1,54 @@
 /*stylesheet*/
-/* acme-regular - latin */
+
 @font-face {
-  font-family: 'Acme';
+    font-family: 'ralewaysemibold';
+    src: url('fonts/raleway-semibold-webfont.eot');
+    src: url('fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-semibold-webfont.woff') format('woff'),
+         url('fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway-bold-webfont.eot');
+    src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-bold-webfont.woff') format('woff'),
+         url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/sourcesanspro-bold-webfont.eot');
+    src: url('fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'SourceSansPro-Semibold';
+  src: url('fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),  url('fonts/SourceSansPro-Semibold.woff') format('woff'), url('fonts/SourceSansPro-Semibold.ttf')  format('truetype'), url('fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url('fonts/acme-v5-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Acme'), local('Acme-Regular'),
-       url('fonts/acme-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/acme-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/acme-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/acme-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/acme-v5-latin-regular.svg#Acme') format('svg'); /* Legacy iOS */
 }
 
 .no-padding-left{
@@ -29,6 +67,12 @@
   padding:0px!important;
 }
 /****************header*******************/
+.homepage{
+	margin-top:15px;
+}
+.top-sect .navbar-brand{
+	float: none;
+}
 .navbar-header.sub-title{
   
   
@@ -38,9 +82,10 @@
 }
 .navbar-header .sub-title a{
   /*font-weight:700;*/
-  font-family: Acme,sans-serif;
-    font-size: 15px;
-    color:#000;
+  color: #424242;
+    font-family: ralewaybold;
+    font-size: 14px;
+    font-weight: normal;
 }
 #main .navbar-brand{
   height:auto;
@@ -49,12 +94,14 @@
   padding-bottom:0px;
 }
 #main .navbar-brand img{
-  padding-right:42px;
+  padding-right:39px;
 }
 #main .navbar-brand span{
-  font-family: Acme,sans-serif;
-  font-size: 30px; 
-  color: #000000;
+  color: #424242;
+    font-family:ralewaysemibold;
+    font-size: 28px;
+     position: relative;
+    top: -6px;
   
 }
 header .navbar-nav {
@@ -73,7 +120,7 @@ header .navbar-brand{
     margin-top: 5px;
 }
 header .navbar{
-  background-color:#02008b;
+  background-color:#020151;
 }
 
 header .form-control{
@@ -98,7 +145,7 @@ header form .form-control:focus{
   margin-top: 0px;
   margin-right: 11px;
 }
-.help-box .glyphicon-envelope ,.help-box .glyphicon-earphone{
+.help-box .glyphicon-envelope , .help-box .glyphicon-earphone{
   
   color:#020151;
 }
@@ -117,11 +164,13 @@ header form .form-control:focus{
 }
 
 .help-box .glyphicon-envelope{padding-top: 9px;}
-.help-box span{padding-top: 9px;
-font-size: 17px;
-color:#02008b;}
+.help-box span{
+    color: #021b9d;
+    font-family: SourceSansPro-Semibold;
+    font-size: 18px;
+    padding-top: 9px;}
 .help-box span i{
-  padding:0 2px 0 19px;
+  padding:0 6px 0 19px;
     
 }
 .help-box .btn-default:hover{
@@ -186,10 +235,25 @@ nav .navbar-nav > li {   display: inline-block;
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
   text-decoration: underline;
 }  
+
+.navbar-nav .glyphicon-menu-down{
+	  font-size: 12px;
+    font-weight: normal;
+}
+.footer-bg .row{}
  @media (max-width:480px) { 
   .dropdown-menu > li > a:hover, .dropdown-menu > .active{
     
   }
+ }
+ @media (min-width: 640px)and(max-width:800){
+ 	footer .col-xs-12 {
+    text-align: center;
+    }
+    footer .iso img {
+    text-align: center;
+    float: none;
+   }
  }
 @media (max-width: 767px){
   .navbar-nav  {
@@ -287,15 +351,21 @@ nav .navbar-nav > li {   display: inline-block;
     /***************************page*****************************/
    .homepage .row img{
  
-    height: 69%;
+    height: 78%;
     width: 100%;
    }
   .homepage .porduct-pic .thumbnail {
-   height: 199px;
+   height:220px;
+   margin-bottom:25px;
+}
+.homepage .clients{
+	margin-top:4px;
 }
  .homepage .thumbnail a , .homepage .thumbnail h4{
-  color:#000000;
-  font-size:14px;
+  color: #000000;
+    font-family: SourceSansPro-Semibold;
+    font-size: 14px;
+    text-align: center;
   
  }
  .homepage .thumbnail a:hover{
@@ -307,29 +377,97 @@ nav .navbar-nav > li {   display: inline-block;
 }
 article h1{
    line-height: 8px;
-  color:#333;
-  font-weight:200;
-  font-family: Acme,sans-serif;
+  color:#021b9d; 
+  font-family:source_sans_probold;
   margin-bottom:0px
 }
 /*Added By Thangam*/
 .thumbnail .pro_img_curve{
   border-radius: 10px;
-  padding: 5px;
+ /* padding: 5px;*/
     /*border: 2px solid #73AD21;*/
 }
 article .bot_size{
   font-size: 16px;
+  font-family:source_sans_proregular;
 }
 /*Ended By Thangam*/
 article .bot-border {
-  color:#333;
+  color:#021b9d;
+  font-family:source_sans_probold;
    font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 
 }
-.homepage .clients , .homepage .thumbnail {
+
+/******/
+
+.row-eq-height{  display: flex;}
+.homepage .row-eq-height [class*="col-"] {
+    background: #fff none repeat scroll 0 0;
+    border:none;
+    margin:5px 5px 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    box-shadow: 0 2px 2px #dbdbdb;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+      
+    -webkit-box-shadow: 0 2px 2px #dbdbdb;
+}
+.homepage .row-eq-height div:first-child{
+	margin-left:0px;
+}
+.homepage .row-eq-height div:last-child{
+	margin-right:0px;
+}
+.row-eq-height .thumbnail{
+	border: none;
+	margin-bottom:0px;
+	
+}
+.homepage .row-eq-height .thumbnail h4{
+	margin-bottom: 4px;
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .fsi-row-xs-level {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .fsi-row-sm-level {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .fsi-row-md-level {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .fsi-row-lg-level {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+
+.homepage .clients {
   border:none;
   box-shadow: 0 2px 2px #dbdbdb;
   /* IE7-8 doesn't have border-radius, so don't indent the padding */
@@ -342,17 +480,22 @@ article .bot-border {
 }
 body{
   background-color:#eeeeee!important;
+    color: #424242!important;
+   
 }
 header{
   background-color:#ffffff;
 }
 
 .requestquote .btn-link{
-  background:#d31900;
-  color:#fff;
-  border-radius:5%;
-  padding-bottom: 5px;/*Added By Thangam*/
-  padding-top: 5px;/*Added By Thangam*/
+    background: #d31900 none repeat scroll 0 0;
+    border-radius: 4%;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    font-size: 16px;
+    margin-top: 4px;
+    padding: 8px 20px;
+  
 }
 .requestquote .btn-link:focus ,.requestquote  .btn-link:hover {
   background:#d31900;
@@ -494,24 +637,51 @@ font-family: Acme,sans-serif;}
 /***********************footer************/
 .footer-bg{
   background-color:#fff;
-  padding:21px 0;
+  padding:7px 0;
+  color:#424242;
+  font-size:16px;
+
+}
+.footer-bg .address{
+	font-family:source_sans_proregular;
+	 margin-top: 15px;
+}
+.footer-bg .address span{font-family:source_sans_probold;}
+.footer-bg .contact-list{
+	font-family:source_sans_probold;
+	padding-top: 15px;
 }
 footer{ 
   
   
 }
-.copy {
-    margin-top: 13px;
+.footer-menu-bg{
+	background:#020151;
+}
+.footer-menu-bg .container{
+	color:#fff;
+	margin-top:0px;
+	padding:8px 0px;
+}
+.footer-menu-bg .container a{
+	color:#fff;
+	font-family: 'SourceSansPro-Semibold';
+	font-size: 16px;
+}
+.footer-bg .copy {
+    margin-top: 26px;
+      font-family: 'SourceSansPro-Semibold';
+      font-size:14px;
 }
 footer .iso img{
   float:right;
-   width: 63px;
+ /*  width: 63px;*/
   
 }
 footer .iso{
   padding-right:0px;
 }
-footer .iso .col-sm-9{/*padding-top:24px;*/}
+footer .iso .col-sm-9{/*padding-top:24px;*/   padding-right: 6px;}
 footer .iso span{float:left;}
 
 /*.footer-nav li::after {
@@ -549,6 +719,8 @@ footer .footer-nav li a:hover{
 }
 nav #navbar li a{
   color:#fff;
+  font-size:18px;
+  font-family:SourceSansPro-Semibold;
 }
 nav #navbar .active a{
 color:#000; 
@@ -567,6 +739,11 @@ nav #navbar li ul li a{
 }
 
 /**************************media*************/
+@media (max-device-width:800px){
+	nav #navbar li a{
+		font-size: 17px;
+	}
+}
 @media (max-device-width:480px){
   footer .col-xs-12{
     text-align: center;
