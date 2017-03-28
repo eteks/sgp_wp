@@ -107,3 +107,11 @@
 		</header><!-- .site-header -->
 
 		<div id="content" class="site-content container">
+<?php
+if ( function_exists('yoast_breadcrumb') ) {
+yoast_breadcrumb('
+<p id="breadcrumbs">','</p>
+');
+}
+?>
+

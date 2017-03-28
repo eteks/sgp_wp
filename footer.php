@@ -25,7 +25,7 @@
 				                         <div class="row">
 			                                <div class="col-md-9 col-sm-7 col-xs-12 text-right copy no-padding-right">Copyright &copy; Speciality Glass
 			                                    <br> Products 2017. All Rights Reserved</div>
-			                                <div class="col-md-3 col-sm-5 col-xs-12 no-padding"><img src="http://localhost/sgpinc/wp-content/uploads/2017/03/iso.jpg" alt="iso"></div>
+			                                <div class="col-md-3 col-sm-5 col-xs-12 no-padding"><img src="http://globalentechnologies.com/SGP/wp-content/uploads/2017/03/iso.jpg" alt="iso"></div>
 			                            </div>
 				                 </div>
 				</div>
