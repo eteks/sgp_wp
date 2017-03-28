@@ -382,7 +382,11 @@ article .bot-border {
     margin-bottom: 15px;
 }
 /******/
-
+.pro_img_curve {
+    border-radius: 10px;
+    /* padding: 5px;*/
+    /*border: 2px solid #73AD21;*/
+}
 .row-eq-height {
     display: flex;
 }
@@ -780,4 +784,14 @@ article .left-side-part {
 }
 .page .jumbotron .left-side-part {
     padding-right: 47px;
+}
+article .paralisthead{
+    font-size: 23px;
+    font-family: source_sans_proregular;
+	text-align:center-left;
+}
+article .paralist{
+    font-size: 18px;
+    font-family: source_sans_proregular;
+	text-align:center-left;
 }
