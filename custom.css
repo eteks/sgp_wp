@@ -72,6 +72,8 @@
 body {
     background-color: #eeeeee !important;
 }
+.homepage p{
+margin: 0px;}
 /****************header*******************/
 .site-title a{
 color:#424242;
@@ -189,6 +191,8 @@ footer .row{
     height: 69%;
     width: 100%;
    }
+.image-ultimate-container{
+padding:15px 0!important;}
   .homepage .porduct-pic .thumbnail {
    height: 199px;
 }
@@ -213,6 +217,7 @@ footer .row{
     font-weight: normal;
     line-height: 32px;
     margin-bottom: 0;
+    font-size:36px;
 }
 /*Added By Thangam*/
 .thumbnail .pro_img_curve{
@@ -222,14 +227,17 @@ footer .row{
 }
 article .bot_size{
   font-size: 16px;
+  margin-bottom: 10px;
 }
 article .paralisthead{
-    font-size: 23px !important;
+    font-size: 24px;
     font-family: source_sans_proregular;
+	text-align:center-left;
 }
 article .paralist{
     font-size: 18px;
     font-family: source_sans_proregular;
+	text-align:center-left;
 }
 /*Ended By Thangam*/
 article .bot-border {
@@ -258,6 +266,7 @@ article .bot-border {
 .homepage .row p{margin:0px;}
 .homepage .clients {
   padding:25px;
+margin-top:15px;
 }
 
 
@@ -294,10 +303,12 @@ article .bot-border {
 #post-2{
 	margin-top:21px;
 }
+.image-ultimate-row .image-ultimate-responsive-6{
+margin:0px 5px;}
 /***********************flats page***************/
 
 .container .page .jumbotron{
-  padding: 40px 50px;
+  padding: 50px 45px;
 }
 
 .page-wrap .thumbnail {
@@ -354,14 +365,15 @@ font-family: Acme,sans-serif;}
   color:#000000;}
   
 /***********************footer************/
+.footer-widget-area .widget{
+margin:0px;
+padding:0px;}/**added by praba**/
 .footer-bg{
   background-color:#fff;
   padding:7px 0;
 }
-footer{ 
-  
-  
-}
+footer{
+margin-top:43px;}
 .copy {
     margin-top: 13px;
 }
@@ -374,6 +386,7 @@ footer .iso img{
     font-family: "SourceSansPro-Semibold";
     font-size: 14px;
     margin-top: 26px;
+     color: #424242;
 }
 footer .iso{
   padding-right:0px;
@@ -408,9 +421,7 @@ footer .iso span{float:left;}
 footer .address-col{
   padding-left:0px;
 }
-footer{
-  margin-top:25px;
-}
+
 footer .footer-nav li a:hover{
   background:none;
 }
@@ -457,6 +468,7 @@ nav #navbar li ul li a{
 }
 .footer-bg .copy {
 	text-align: center;
+        color: #424242;
 }
 }
 /****************** navigation ******************/
@@ -464,6 +476,9 @@ header .nav-bg{background-color:#020151;}
 #site-navigation ul ul li a{
 	color:#424242;
 	border: none;
+  padding-bottom: 20px;/**added by praba**/
+    padding-left: 20px;/**added by praba**/
+    padding-top: 20px;/**added by praba**/
 }
 /**************************media*************/
 @media (max-device-width:480px){
@@ -541,14 +556,23 @@ header .nav-bg{background-color:#020151;}
     font-family: "SourceSansPro-Semibold";
     font-size: 16px;
 }
-.footer-menu{ background: #020151 none repeat scroll 0 0;}
+#nav_menu-2{ background: #020151 none repeat scroll 0 0;}
 
 
 /*20-30-2017**/
+.main-navigation .primary-menu > li{
+margin-left: 20px;
+    margin-right: 20px;
+}
+.main-navigation .primary-menu > li a{
+}
+.main-navigation a{
+padding:20px 7px 17px;/**added by praba**/
+color: #fff;
+font-family: SourceSansPro-Semibold;
+ font-size: 18px;
 
-.main-navigation a{color: #fff;
-    font-family: SourceSansPro-Semibold;
-    font-size: 18px;}
+}
 .help-box .widget-area{
 margin-bottom:0px;}
 .site-branding{
@@ -583,7 +607,7 @@ margin-bottom:0px;}
 
 /*21-03-2017 header*/
 .homepage{
-margin-top:30px;
+margin-top:25px;
 }
 .help-box .search-submit{
 	background:none;
@@ -623,20 +647,21 @@ line-height: 27px!important;
 	/*border-bottom:2px solid #0679d3;*/
 }
 .main-navigation ul ul::before{
-	 right: 65px!important;
+	 right: 48px !important;/**added by praba**/
 }
 .main-navigation ul ul::after{
-	 right: 67px!important;
+	 right:50px !important;/**added by praba**/
 }
 
 /***22-03-2017 navigation***/
+.main-navigation .menu-item-has-children > a {padding-right: 1.25em;}/**added by praba**/
 #site-navigation #menu-top-menu .sub-menu li{
-	 left: 38px!important;
+	 left: 55px !important;/**added by praba**/
 	
 	
 }
 #site-navigation #menu-top-menu ul li .sub-menu li{
-	left:455px !important;
+	left:457px !important;/**added by praba**/
 	top:-4px;
 }
 /**
@@ -681,8 +706,8 @@ display:block;
 .main-navigation .menu-item-has-children > a:hover{
 	border-bottom: 3px solid #0679d3;
 }
-#page .main-navigation .menu-item-has-children > a::after{ right: 1.2em;
-    top: 1em;
+#page .main-navigation .menu-item-has-children > a::after{ right:0.2em;/**added by praba**/
+    top: 1.3em;/**added by praba**/
  font-size: 18px;}
 .main-navigation li:hover > a,
 	.main-navigation li.focus > a {
@@ -733,15 +758,18 @@ display:block;
 .image-ultimate-row h3{
 	margin:10px 0px;
 	color: #000000;
-	font-size:15px;
+	font-size:14px;
 	font-family: 'SourceSansPro-Semibold';
 	font-weight:normal;
 }
 #page .image-ultimate-map .image-ultimate-info-square p{
-	font-size:19px!important;
-font-family: 'ralewaybold';
-vertical-align: middle;
-display:block;
+	font-size:15px!important;
+        font-family: 'ralewaybold';
+        vertical-align: middle;
+        display:block;
+        text-align:center;
+        font-weight:900;
+        line-height: 2.2em;
 	
 }
 .image-ultimate-info-square{
@@ -797,6 +825,7 @@ vertical-align: unset;
 p{
   font-size: 24px;
   font-family: source_sans_proregular;
+  text-align: justify;
 }
 .jumbotron p{
   color: #424242 !important;
@@ -815,7 +844,7 @@ p{
 
 /* For Breadcrumbs */
 #breadcrumbs{
-  margin: 20px 0 30px;
+  margin: 20px 0 30px !important;
   font-size: 14px;
   font-family: source_sans_proregular;
   color: #424242; 
@@ -829,10 +858,28 @@ body.home #breadcrumbs {
 .site-title a:hover, .site-title a:focus, .site-title a:active {
     text-decoration: none;
     color: #424242 !important;
+}.jumbotron{
+   background-color: #fff !important;
 }
+.mtop20 {
+  margin-top: 20px;
+}
+.demands_glass{
+   list-style-type:disc;
+}
+.demands_glass li{
+   margin-left: 20px;
+}
+.article_subtitle{
+   font-size: 20px;
+   font-weight: bold;
+   margin: 20px 0 0;
+}
+
 /* Media Query for SM and MD */
 @media(min-width:768px)and(max-width:1991px){
    .img{
 	width: 100%;
    }
 }
+

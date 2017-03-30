@@ -429,3 +429,13 @@ function sgpincwp_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'sgpincwp_widget_tag_cloud_args' );
+// stop wp removing div tags
+function ikreativ_tinymce_fix( $init )
+{
+    // html elements being stripped
+    $init['extended_valid_elements'] = 'div[*]';
+
+    // pass back to wordpress
+    return $init;
+}
+add_filter('tiny_mce_before_init', 'ikreativ_tiny_mce_fix');
